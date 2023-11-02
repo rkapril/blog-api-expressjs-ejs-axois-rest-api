@@ -35,7 +35,7 @@ let posts = [
 let lastId = 3;
 
 // Middleware
-app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // GET all posts
